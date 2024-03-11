@@ -1,0 +1,224 @@
+.home-body{
+    background: url(../assets/home/background-home-desktop.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.home{
+    padding-top: 140px;
+}
+
+.container-home{
+    height: 80vh;
+    display: flex;
+}
+.left-home{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-home-text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left-home-text h2{
+    font-size: 2rem;
+    color: aliceblue;
+}
+.left-home-text h1{
+    font-size: 10rem;
+    color: aliceblue;
+    font-weight: 400;
+    font-family: "Bellefair", serif;
+}
+.left-home-text p{
+    font-size: 1.5rem;
+    color: aliceblue;
+    width: 80%;
+    font-family: "Bellefair", serif;
+
+
+}
+.right-home{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right-home button{
+    height: 40%;
+    width: 38%;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 200px) and (max-width: 767px) {
+    .home-body{
+        background: url(../assets/home/background-home-mobile.jpg);
+        height: 100vh;
+        background-size: cover;
+    }
+    .home{
+        padding-top: 100px;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-home{
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .left-home{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-home-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .left-home-text h2{
+        font-size: 1.5rem;
+        color: aliceblue;
+        text-align: center;
+    }
+    .left-home-text h1{
+        font-size: 6rem;
+        color: aliceblue;
+        font-weight: 400;
+        font-family: "Bellefair", serif;
+        text-align: center;
+
+    }
+    .left-home-text p{
+        font-size: 1.2rem;
+        color: aliceblue;
+        width: 100%;
+        font-family: "Bellefair", serif;
+        text-align: center;
+    
+    
+    }
+    .right-home{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .right-home button{
+        height: unset;
+        width: unset;
+        padding: 50px 20px;
+        border-radius: 50%;
+        border: none;
+        font-size: 1.1rem;
+    }
+   
+   }
+   
+   /* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .home-body{
+        background: url(../assets/home/background-home-tablet.jpg);
+        height: 100vh;
+        background-size: cover;
+    }
+    .home{
+        padding-top: 90px;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-home{
+        height: 100%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .left-home{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-home-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .left-home-text h2{
+        font-size: 2rem;
+        color: aliceblue;
+        text-align: center;
+    }
+    .left-home-text h1{
+        font-size: 10rem;
+        color: aliceblue;
+        font-weight: 400;
+        font-family: "Bellefair", serif;
+        text-align: center;
+
+    }
+    .left-home-text p{
+        font-size: 1.5rem;
+        color: aliceblue;
+        width: 100%;
+        font-family: "Bellefair", serif;
+        text-align: center;
+    
+    
+    }
+    .right-home{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .right-home button{
+        height: unset;
+        width: unset;
+        padding: 70px 40px;
+        border-radius: 50%;
+        border: none;
+        font-size: 1.1rem;
+    }
+   
+   }
+
+
+

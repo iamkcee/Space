@@ -1,0 +1,377 @@
+.destination-body{
+    background: url(../assets/destination/background-destination-desktop.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.destination{
+    padding-top: 140px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 100%;
+    width: 70%;
+}
+.main .title-text-dest{
+    width: 100%;
+    height: 10%;
+    padding: 15px, 15px;
+
+}
+.title-text-dest h1{
+    font-weight: 400;
+}
+.title-text-dest span{
+    color: gray;
+    padding-right: 5px;
+}
+.content-dest{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.content-dest-img{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+    height: 100%;
+}
+.content-dest-img img{
+    width: 80%;
+    height: 80%;
+}
+.content-dest-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn-dest{
+    height: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-dest button{
+    height: 100%;
+    width: auto;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.middle-text{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.middle-text h1{
+    font-size: 9rem;
+    font-weight: 400;
+}
+.middle-text p{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.bottom-text{
+    border-top: 1px solid gray;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.left-bottom{
+    width: 50%;
+    height: 50%;
+}
+
+.right-bottom{
+    width: 50%;
+    height: 50%;
+}
+
+.bottom-text p{
+    font-size: 1.5rem;
+}
+.bottom-text h3{
+    font-size: 3rem;
+}
+
+@media (min-width: 370px) and (max-width: 767px) {
+    .destination-body{
+        background-image: url(../assets/destination/background-destination-mobile.jpg);
+        height: 100vh;
+        background-size: cover;
+    }
+    .destination{
+        padding-top: 80px;
+        height: 85vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        height: 100%;
+        width: 95%;
+        /* border: 1px solid red; */
+    }
+    .main .title-text-dest{
+        width: 100%;
+        height: 7%;
+    }
+    .title-text-dest h1{
+        font-weight: 400;
+        font-size: 1.5rem;
+        font-family: 'Barlow condensed', serif;
+        text-align: center;
+    }
+    .title-text-dest span{
+        color: gray;
+        padding-right: 10px;
+    }
+    .content-dest{
+        height: 93%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* border: 1px solid green; */
+    }
+    .content-dest-img{
+        width: 40%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 1rem;
+        /* border: 1px solid tomato; */
+    }
+    .content-dest-img img{
+        width: 120%;
+        height: 100%;
+    }
+    .content-dest-text{
+        color: aliceblue;
+        width: 78%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* border: 1px solid yellow; */
+    }
+    .btn-dest{
+        height: 10%;
+        width: 100%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center; 
+    }
+    .btn-dest button{
+        height: 100%;
+        width: auto;
+        font-size: 1rem;
+        border: none;
+        background-color: transparent;
+        color: white;
+        border-bottom:1px solid white;
+        font-weight: 200;
+        font-family: 'Barlow condensed', serif;
+    }
+    .middle-text{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .middle-text h1{
+        font-size: 3rem;
+        font-weight: 100;
+    }
+    .middle-text p{
+        font-size: 1rem;
+        font-family: 'Barlow condensed', serif;
+        font-weight: 100;
+        text-align: center;
+    }
+    .border-line{
+        border: 1px solid grey;
+    }
+    .bottom-text{
+        height: 35%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .left-bottom{
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        width: 50%;
+    }
+    .right-bottom{
+        width: 60%;
+
+    }
+    .bottom-text p{
+        font-size: 1rem;
+        font-weight: 200;
+        font-family: 'Barlow condensed', serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom-text h3{
+        font-size: 1.4rem;
+        padding-top: 0.3rem;
+        font-weight: 100;
+        font-family: "Bellefair", serif;
+        display: flex;
+        justify-content: center;
+
+    }
+   
+   }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .destination-body{
+        background-image: url(../assets/destination/background-destination-tablet.jpg);
+        height: 100vh;
+        background-size: cover;
+    }
+    .destination{
+        padding-top: 100px;
+        height: 75vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        height: 100%;
+        width: 95%;
+    }
+    .main .title-text-dest{
+        width: 100%;
+        height: 10%;
+    }
+    .title-text-dest h1{
+        font-weight: 200;
+        font-size: 1.7rem;
+        font-family: 'Barlow condensed', serif;
+    }
+    .title-text-dest span{
+        color: gray;
+        padding-right: 10px;
+    }
+    .content-dest{
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .content-dest-img{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 2rem;
+    }
+    .content-dest-img img{
+        width: 60%;
+        height: 80%;
+    }
+    .content-dest-text{
+        color: aliceblue;
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .btn-dest{
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center; 
+    }
+    .btn-dest button{
+        height: 100%;
+        width: auto;
+        font-size: 1.2rem;
+        border: none;
+        background-color: transparent;
+        color: white;
+        border-bottom:1px solid white;
+        font-weight: 100;
+        font-family: 'Barlow condensed', serif;
+    }
+    .middle-text{
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .middle-text h1{
+        font-size: 5rem;
+        font-weight: 400;
+    }
+    .middle-text p{
+        font-size: 1.4rem;
+        font-family: 'Barlow condensed', serif;
+        font-weight: 100;
+        text-align: center;
+    }
+    .border-line{
+        border: 1px solid grey;
+    }
+    .bottom-text{
+        height: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .left-bottom{
+        padding-right: 8rem;
+    }
+    .bottom-text p{
+        font-size: 1.1rem;
+        font-weight: 100;
+        font-family: 'Barlow condensed', serif;
+        text-align: center;
+    }
+    .bottom-text h3{
+        font-size: 1.6rem;
+        padding-top: 0.3rem;
+        font-weight: 100;
+        font-family: "Bellefair", serif;
+        text-align: center;
+    }
+   
+   }
